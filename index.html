@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="style.css" /> <!----Style 4 Body !----->
+			<link rel="stylesheet" type="text/css" href="animate.css" />
+			<link href="https://fonts.googleapis.com/css?family=Righteous|Roboto|Montserrat:300|Teko" rel="stylesheet">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="icon" href="/img/favicon.ico">
+			<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+			<meta charset="UTF-8">
+			<title>Welcome</title>
+			<script type="text/javascript" src="wow.min.js"></script>
+			<script type="text/javascript" src="jquery.js"></script>
+			<script type="text/javascript" src="counter.js"></script>
+			<script type="text/javascript" src="script.js"></script>
+			<script type="text/javascript">
+				new WOW().init();
+			</script>
+			<script type="text/javascript">
+				function animate(elem) {
+					var effect = elem.data("effect");
+					elem.addClass("animated "+effect).one("oAnimationEnd animationend mozAnimationEnd webkitAnimationEnd", function() {
+						elem.removeClass("animated "+effect);
+					});
+				}
+
+				$(document).ready(function(){
+					$(".test").mouseenter(function (){
+						animate($(this));
+					});
+				})
+			</script>
+		</head>
+		<body>
+			            <div id="container">
+
+                        <div id="header">
+                        	<div id="logo"><img style="width: 150%; height: auto; display: inline-block;" src="img\logo.png"></div>
+                        	<div id="butt1"><button type ="button" class="button1" ><span>Log In</span></button></div>
+                        </div>
+
+ 
+
+                        <div id="content">
+                        	<div id="container1">
+                        		<span id="HeadOurFeatures" class="wow fadeIn">OUR FEATURES</span>
+                        		<br>
+                        			<a href="http://security.com" style="text-decoration: none; color: black"><div class="feature1 test" data-effect="pulse">
+                        			<span class="image  wow fadeInUp">
+                        				<img style="max-width: 40%; height: auto;"src="img\reliable.png">
+                        				<br>
+                        				<span class="headlineFeat">RELIABLE</span>
+                        				<div class="line1"></div>
+                        				<br>
+                        				<span class="FeatDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        			</span>
+                        		</div></a>
+                        		<a href="http://nasa.gov" style="text-decoration: none; color: black"><div class="feature2 test" data-effect="pulse">
+                        			<span class="image wow fadeInDown">
+                        				<img style="max-width: 40%; height: auto;"src="img/fast-service.png">
+                        				<br>
+                        				<span class="headlineFeat">FAST SERVICE</span>
+                        				<div class="line2"></div>
+                        				<br>
+                        				<span class="FeatDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        			</span>
+                        		</div></a>
+                        		<div class="feature3 test" data-effect="pulse">
+                        			<span class="image wow fadeInUp">
+                        				<img style="max-width: 40%; height: auto;"src="img/price.png">
+                        				<br>
+                        				<span class="headlineFeat">CHEAP PRICE</span>
+                        				<div class="line3"></div>
+                        				<br>
+                        				<span class="FeatDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        			</span>
+                        		</div>
+                        		<div class="feature4 test" data-effect="pulse">
+                        			<span class="image wow fadeInDown">
+                        				<img style="max-width: 40%; height: auto; "src="img/icon1.png">
+                        				<br>
+                        				<span class="headlineFeat">USABILITY</span>
+                        				<div class="line4"></div>
+                        				<br>
+                        				<span class="FeatDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        			</span>
+                        		</div>
+                        	</div>
+                        	<div id="container2">
+                        		<span id="headline0"class="wow FadeIn">Some text here 2 show parallax effect</span>
+                        		<span id="butt2" class="wow slideInRight"><button type ="button" class="button1" >Click</span>
+                        	</div>
+                        	
+                        	<div id="container3">
+                        		<span id="headline1" class="wow fadeInDownLittle">ABOUT</span>
+                        		<span id="leftBlock" class="wow jackInTheBox">Here's some advantages <br>of our cite</span>
+                        		<span id="midBlock">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        		<span id="rightBlock">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        	</div>
+                        	<div id="container4">
+                        		<div class="layer">
+                        			<span id="CalcHeader">HERE IS OUR CALCULATOR</span>
+                        			<div class="f0rm">
+                        				<input id="in1" class="in" type="number" /><br>
+                        				<input id="in2" class="in" type="number"/><br><br>
+                        				<button id= "plusCount" type ="button" class="button1" style="margin-left: 6%; display: inline-flex;"><span style="color: black;">+</span></button>
+                        				<button id= "minusCount" type ="button" class="button1" style="margin-left: 2%; display: inline-flex;"><span style="color: black;">-</span></button>
+                        				<button id= "mulCount" type ="button" class="button1" style="margin-left: 2%; display: inline-flex;"><span style="color: black;">*</span></button>
+                        				<button id= "divCount" type ="button" class="button1" style="margin-left: 2%; display: inline-flex;"><span style="color: black;">/</span></button>
+                        				<button id= "shCount" type ="button" class="button1" style="margin-left: 30%;"><span style="color:black;">COUNTER</span></button>
+                        			</div>
+                        		</div>
+                        	</div>
+                        </div>
+
+ 					
+
+                        <div id="clear">
+
+ 
+
+                        </div>
+
+                     	<br>
+                        <div id="footer">
+                        	footer
+ 				
+                        </div>
+
+            </div>
+		</body>
+	</html>
